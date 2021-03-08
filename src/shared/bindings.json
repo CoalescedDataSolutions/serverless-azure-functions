@@ -962,6 +962,14 @@
           ],
           "label": "$serviceBusTrigger_accessRights_label",
           "help": "$serviceBusTrigger_accessRights_help"
+        },
+        {
+          "name": "isSessionsEnabled",
+          "value": "boolean",
+          "required": false,
+          "defaultValue": true,
+          "label": "$serviceBusTrigger_isSessionsEnabled_label",
+          "help": "$serviceBusTrigger_isSessionsEnabled_help"
         }
       ],
       "rules": [
