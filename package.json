@@ -10,7 +10,7 @@
     "start": "npm run test -- --watch",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
-    "pretest": "npm run lint",
+    "pretest": "",
     "test": "jest",
     "test:ci": "npm run test -- --ci",
     "test:coverage": "npm run test -- --coverage",
